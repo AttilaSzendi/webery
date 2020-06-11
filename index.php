@@ -30,7 +30,7 @@ class UserModel
 class UserManager
 {
     /** @var Driver */
-    public $database;
+    protected $database;
 
     public function __construct(Driver $driver)
     {
